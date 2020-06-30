@@ -1,0 +1,29 @@
+
+CREATE TABLE EMPRESA(
+ EMP_ID Numeric(30,0) NOT NULL,
+ NIT Varchar NOT NULL,
+ NOMBRE VARCHAR NOT NULL,
+ DIRECCION Varchar NOT NULL,
+ TELEFONO Varchar NOT NULL,
+ CORREO Varchar NOT NULL,
+ ACTIVO Character(1) NOT NULL
+)
+;
+
+CREATE INDEX IX_Relationship1 ON EMPRESA (NIT)
+;
+
+ALTER TABLE EMPRESA ADD CONSTRAINT Key1 PRIMARY KEY (EMP_ID)
+;
+
+
+INSERT INTO public.empresa(emp_id, nit, nombre, direccion, telefono, correo, activo)	VALUES (	1	, '888888881',	'SAS', 	'calle 23 c # 23-26', 	'7777777',	'sas@sas.com','1');	
+INSERT INTO public.empresa(emp_id, nit, nombre, direccion, telefono, correo, activo)	VALUES (	2	, '888888882',	'Comercializadora ZAZ', 	'calle 23 c # 23-26', 	'7777777',	'Comercializadora@sas.com','1');	
+INSERT INTO public.empresa(emp_id, nit, nombre, direccion, telefono, correo, activo)	VALUES (	3	, '888888883',	'seguritas', 	'calle 23 c # 23-26', 	'7777777',	'seguritas@sas.com','1');	
+INSERT INTO public.empresa(emp_id, nit, nombre, direccion, telefono, correo, activo)	VALUES (	4	, '888888884',	'Lamia', 	'calle 23 c # 23-26', 	'7777777',	'Lamia@sas.com','1');	
+INSERT INTO public.empresa(emp_id, nit, nombre, direccion, telefono, correo, activo)	VALUES (	5	, '888888885',	'Eorza', 	'calle 23 c # 23-26', 	'7777777',	'Eorza@sas.com','1');	
+INSERT INTO public.empresa(emp_id, nit, nombre, direccion, telefono, correo, activo)	VALUES (	6	, '888888886',	'The Firts', 	'calle 23 c # 23-26', 	'7777777',	'TheFirts@sas.com','1');	
+INSERT INTO public.empresa(emp_id, nit, nombre, direccion, telefono, correo, activo)	VALUES (	7	, '888888887',	'Ifrit', 	'calle 23 c # 23-26', 	'7777777',	'Ifrit@sas.com','1');	
+INSERT INTO public.empresa(emp_id, nit, nombre, direccion, telefono, correo, activo)	VALUES (	8	, '888888888',	'Samuzas', 	'calle 23 c # 23-26', 	'7777777',	'Samuzas@sas.com','1');	
+INSERT INTO public.empresa(emp_id, nit, nombre, direccion, telefono, correo, activo)	VALUES (	9	, '888888889',	'Imizas', 	'calle 23 c # 23-26', 	'7777777',	'Imizas@sas.com','1');	
+INSERT INTO public.empresa(emp_id, nit, nombre, direccion, telefono, correo, activo)	VALUES (	10	, '888888880',	'Shiro', 	'calle 23 c # 23-26', 	'7777777',	'Shiro@sas.com','1');	

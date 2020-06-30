@@ -1,0 +1,27 @@
+2020-06-30 10:23:27.066  INFO 10616 --- [main] co.com.usb.anuncios.AnunciosApplication  : Starting AnunciosApplication on LAPTOP-5SE0KVB5 with PID 10616 (D:\workspace\Sprint-workspace\Anuncios\target\classes started by amgri in D:\workspace\Sprint-workspace\Anuncios)
+2020-06-30 10:23:27.074  INFO 10616 --- [main] co.com.usb.anuncios.AnunciosApplication  : No active profile set, falling back to default profiles: default
+2020-06-30 10:23:28.349  INFO 10616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-30 10:23:28.423  INFO 10616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 1 JPA repository interfaces.
+2020-06-30 10:23:29.101  INFO 10616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-06-30 10:23:29.112  INFO 10616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-30 10:23:29.113  INFO 10616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-30 10:23:29.259  INFO 10616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-30 10:23:29.260  INFO 10616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2126 ms
+2020-06-30 10:23:29.594  INFO 10616 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 10:23:29.604  INFO 10616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-30 10:23:35.349  INFO 10616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-30 10:23:35.421  INFO 10616 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-30 10:23:35.496  INFO 10616 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-30 10:23:35.586  WARN 10616 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-30 10:23:35.791  INFO 10616 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-30 10:23:36.034  INFO 10616 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-30 10:23:36.894  INFO 10616 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-30 10:23:36.909  INFO 10616 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-30 10:23:36.993  INFO 10616 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-06-30 10:23:37.091  INFO 10616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-06-30 10:23:37.094  INFO 10616 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-30 10:23:37.451  INFO 10616 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-30 10:23:37.474  INFO 10616 --- [main] co.com.usb.anuncios.AnunciosApplication  : Started AnunciosApplication in 10.86 seconds (JVM running for 11.793)
+2020-06-30 10:23:39.045  INFO 10616 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 10:23:39.045  INFO 10616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-30 10:23:39.054  INFO 10616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
